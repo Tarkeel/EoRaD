@@ -41,14 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ICareerRepository.cs" />
     <Compile Include="Repository\ICharacteristicRepository.cs" />
     <Compile Include="Repository\ISkillRepository.cs" />
+    <Compile Include="Repository\ISpecializationRepository.cs" />
     <Compile Include="Repository\ISpeciesRepository.cs" />
     <Compile Include="Repository\ITalentRepository.cs" />
+    <Compile Include="Types\Career.cs" />
     <Compile Include="Types\Characteristic.cs" />
     <Compile Include="Types\CharacteristicValue.cs" />
     <Compile Include="Types\Observable.cs" />
     <Compile Include="Types\Skill.cs" />
+    <Compile Include="Types\Specialization.cs" />
     <Compile Include="Types\Species.cs" />
     <Compile Include="Types\Talent.cs" />
   </ItemGroup>
